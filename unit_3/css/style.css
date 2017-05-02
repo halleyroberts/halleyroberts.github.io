@@ -1,0 +1,43 @@
+/*body {
+		background-color: pink
+}
+body {
+		text-align: center;
+}*/
+
+body {
+	background-image: url("http://i.imgur.com/iPyUY.jpg");
+	background-size: cover;
+	background-position: bottom middle;
+	text-align: center;
+	text-orientation: upright;
+	height: 100%;
+
+}
+
+h1, h2, h3, p {
+		color: #FFA5DC;
+		font-family: monospace; 
+}
+
+h1 {
+		font-size: 72px
+		margin: 200px;
+}
+
+
+/*}
+	.important {
+		font-size: 18px;
+		margin: 200px;
+}
+
+	.center {
+		margin: 200px;*/
+/*}*/
+/*}
+	#third {
+		font-style: italic;
+		font-kerning: 5em;
+
+}*/
