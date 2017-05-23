@@ -1,0 +1,88 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+
+body {
+
+}
+
+nav {
+	
+	font-family: 'Cormorant Garamond', serif;
+	text-size: 10px;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	width: 200 px;	
+}
+
+a:hover {
+	background-color:;
+}
+
+img {
+
+}
+
+h1, h2 {
+
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+
+}
+
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 8 px;
+	line-height: 1em;
+}
+
+footer {
+
+}*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+.two-columns .column {
+	width: 50%;
+	float: left;
+	background-color: yellow;
+
+}
+
+.clear:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.three-columns .column {
+	width: 33.3%;
+	float: left;
+	background-color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
