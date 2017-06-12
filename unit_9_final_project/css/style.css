@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	text-align: center;
+
+}
+
+nav a {
+	
+	text-decoration: underline;
+	text-align: right;
+	color: #000;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;	
+	font-size: 18px;
+	display: inline-block;
+}
+
+a {
+	display: block;
+	padding: 10px;
+}
+
+img {
+
+	display: block;
+	width: 100%;
+}
+
+h1 {
+	font-weight: 500;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	color: #FFF;
+}
+
+h2 {
+	position: absolute;
+	font-size: 72px;
+	top: 200px;
+	width: 100%;
+	color: #FFF;
+	font-weight: 500;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+}
+
+h3, h4, h5	{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-variant: uppercase;
+}
+
+p {
+	font-family: 'Cormorant Garamond', serif;
+	color: #000;
+	font-size: 14px;
+	line-height: 1em;
+}
+
+/* Inset Rule */
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer {
+	text-decoration: underline;
+	text-align: right;
+	color: #FFAEC3;
+	background-color: #fff;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;	
+	font-size: 16px;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+}
+
+
+.two-columns .column {
+	width: 50%;
+	float: left;
+	padding: 2em;
+}
+
+.three-columns:after,
+.two-columns:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.three-columns .column {
+	min-height: 100px;
+	padding: 2em;
+	width: 33.333%;
+	float: left;	
+	
+}
+
+.long-column {
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
+}
+
+#intro-column1 {
+	background-color: #FFAEC3;
+	column-fill: auto;
+}
+
+#intro-column2 {
+	background-color: #FFAEC3;
+	column-fill: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
